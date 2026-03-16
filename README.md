@@ -4,6 +4,8 @@ Author: Xu Shan, Sujan Koirala, and Nuno Carvalhais
 
 This repo is a forked repo from [SindbadTutorials.jl](https://github.com/LandEcosystems/SindbadTutorials.jl) for the Challenge 17 of the AI4PEX winter school at Athens in 2026. The original repo is developed by the team of Model-Data Integration Group at Max Planck Institute of Biogeochemistry. The tutorials are designed to be run in a `terminal` or in a `Colab` notebook, and they will guide you through the process of building hybrid by exploring different ML architectures for biogeochemical processes (for example, GPP sensitivity to air temperature) to improve the generalizability of the hybrid models across different locations and time scales.
 
+The installation of the tutorial is found here: [Tutorials](https://github.com/LandEcosystems/SindbadTutorials.jl/tree/main?tab=readme-ov-file#sindbadtutorialsjl), and the specific challenge we will be tackling is found here: [Hybrid process learning](https://github.com/LandEcosystems/SindbadTutorials.jl/blob/main/tutorials/hybrid_process_learning/Task_Process.md#task-02-build-a-hybrid-model-for-gpp-sensitivity-to-air-temperature)
+
 ## Description
 
 Land–atmosphere exchanges of carbon, water, and energy regulate the interactions between terrestrial ecosystems and the climate system. Accurately representing these fluxes in land surface models remains challenging due to complex ecosystem responses to environmental drivers such as temperature, radiation, and moisture availability. Traditional process-based models rely on simplified parameterizations of these relationships, which may not fully capture the variability observed across ecosystems and climatic conditions.
@@ -95,57 +97,6 @@ or
 ```bash
 git clone https://github.com/LandEcosystems/SindbadTutorials.jl
 ```
-
-Note the root directory of where the repo is (```cd WinterSchool2026-ch17-Hybrid-land-atmosphere```).
-
-The tutorial files are stored in the `tutorials` subdirectory, and organised by topic or summer school or other event. 
-
-
-## Install Julia
-
-Use Juliaup to install `Julia`. See instructions here:
-
-https://github.com/JuliaLang/juliaup
-
-Or simply running following commands to setup julia 1.11.9:
-```bash
-curl -fsSL https://install.julialang.org | sh
-juliaup status
-juliaup add 1.11.9
-juliaup default 1.11.9
-```
-
-The, install the VS Code Julia extension: 
-
-https://marketplace.visualstudio.com/items?itemName=julialang.language-server
-
-
-# Install Tutorial Environment
-Open a terminal at the root of this repo 
-
-Start up `Julia`, e.g., in Terminal:
-
-```bash
-julia
-```
-
-or in VSCode, open the root folder and start the REPL (Ctrl+Shift+J)
-
-Activate an environment in the folder with:
-```julia
-using Pkg
-Pkg.activate("./")
-```
-
-The prompt should change to `(which_tutorial) pkg>`.
-
-Instantiate/install the packages in the environment with:
-```julia
-Pkg.instantiate()
-```
-
-# Set REPL environment
-In VS code, set the `which_tutorial` as the active project by clicking on the `Julia env:` dropdown and selecting `which_tutorial` as the folder. This should change the default environment for the REPL.
 
 
 # Tutorials
