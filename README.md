@@ -90,11 +90,6 @@ Then, run the following command in the terminal to clone the repo:
 
 ```bash
 cd /content/drive/MyDrive
-git clone https://github.com/WinterSchool2026/WinterSchool2026-ch17-Hybrid-land-atmosphere.git
-```
-
-or 
-```bash
 git clone https://github.com/LandEcosystems/SindbadTutorials.jl
 ```
 
